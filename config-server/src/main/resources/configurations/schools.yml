@@ -22,4 +22,5 @@ application:
     students-url: http://localhost:8090/api/v1/students
 management:
   tracing:
-    probability: 1.0
+    sampling:
+      probability: 1.0
